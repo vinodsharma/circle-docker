@@ -23,5 +23,4 @@ jobs:
       - run:
           name: Running Tests
           command: |
-            docker run -t $DOCKER_IMAGE pip list
-            python tests/test_*.py
+            docker run -t $DOCKER_IMAGE python tests/test_*.py
